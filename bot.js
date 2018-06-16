@@ -2,7 +2,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    //console.log('I am ready!');
+    client.user.setStatus("Online");
+    client.user.setGame("m!help");
 });
 
 client.on('message', message => {
