@@ -4,7 +4,7 @@ const client = new Discord.Client();
 client.on('ready', () => {
     //console.log('I am ready!');
     client.user.setStatus("Online");
-    client.user.setGame("m!help");
+    client.user.setGame("m!help", "https://www.twitch.tv/test");
 });
 
 client.on('message', message => {
