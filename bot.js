@@ -12,9 +12,9 @@ client.on('message', message => {
     	message.reply('tested 1');
   	}
     if (message.content === 'm!help') {
-    	message.reply(':V Lol under development');
+    	message.channel.send(':V Lol under development');
   	}
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(NDU3NjIwNDY3NzA5MTE2NDU2.DgbwUw.7AQNTeFaXVJU73IKkKfv0js7N0I');
+client.login('NDU3NjIwNDY3NzA5MTE2NDU2.DgbwUw.7AQNTeFaXVJU73IKkKfv0js7N0I');
