@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'm!test') {
-    	message.reply('tested 1');
+    	message.replya('tested 1');
   	}
     if (message.content === 'm!help') {
     	message.reply(':V Lol under development');
